@@ -1,0 +1,12 @@
+{
+  "user": "foo",
+  "password": "bar",
+  "registry": {
+    "webhook": {
+      "v1": [
+        "localhost:9091",
+        "localhost:9092"
+      ]
+    }
+  }
+}
