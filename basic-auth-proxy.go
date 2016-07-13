@@ -21,7 +21,7 @@ func init() {
 func main() {
 	flag.Parse()
 	config := NewConfig(configFilePath)
-        log.Println("Read config file from from", configFilePath)
+	log.Println("Read config file from from", configFilePath)
 
 	serviceHandler := http.HandlerFunc(goproxy.NewMultipleHostReverseProxy(config.Registry))
 	authHandler := httpauth.SimpleBasicAuth(config.User, config.Password)
