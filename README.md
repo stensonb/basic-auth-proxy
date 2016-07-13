@@ -1,4 +1,5 @@
-# basic-auth-proxy
+# basic-auth-proxy [![Build Status](https://travis-ci.org/stensonb/basic-auth-proxy.svg?branch=master)](https://travis-ci.org/stensonb/basic-auth-proxy) [![GoDoc](https://godoc.org/github.com/stensonb/basic-auth-proxy?status.png)](https://godoc.org/github.com/stensonb/basic-auth-proxy)
+
 
 This project is built as a simple proxy tool, offering basic auth protection for the services defined in the config.
 
