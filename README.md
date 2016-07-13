@@ -7,7 +7,7 @@ This project is built as a simple proxy tool, offering basic auth protection for
 ## Install
 
 ```
-go get github.com/revinate/basic-auth-proxy
+go get github.com/stensonb/basic-auth-proxy
 ```
 
 ## Start
